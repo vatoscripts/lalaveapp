@@ -23,7 +23,7 @@ spec:
       containers:
       - name: php
         #image: hirenkavad/laravel-k8
-        image: kiyange26773/lalaveapp
+        image: kiyange26773/lalaveapp:v1
         volumeMounts:
         - name: dir
           mountPath: /code
