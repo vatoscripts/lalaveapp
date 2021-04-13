@@ -23,7 +23,7 @@ spec:
       containers:
       - name: php
         #image: hirenkavad/laravel-k8
-        image: kiyange26773/sourceapp:latest
+        image: kiyange26773/sourceapp1:latest
         volumeMounts:
         - name: dir
           mountPath: /source
