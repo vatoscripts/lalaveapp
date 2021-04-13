@@ -5,7 +5,7 @@ metadata:
   labels:
     tier: backend
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: php
@@ -23,7 +23,7 @@ spec:
       containers:
       - name: php
         #image: hirenkavad/laravel-k8
-        image: kiyange26773/sourceapp1:latest
+        image: kiyange26773/sourceapp2:latest
         volumeMounts:
         - name: dir
           mountPath: /source
